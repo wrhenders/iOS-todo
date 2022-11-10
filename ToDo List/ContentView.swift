@@ -49,7 +49,7 @@ struct ContentView: View {
                         Text(todoEntry.todo)
                     }.onDelete(perform: delete)
                 }
-            }.navigationBarTitle("Todo List")
+            }.navigationBarTitle("Todo List Below")
         }.onAppear(perform: load)
     }
 }
